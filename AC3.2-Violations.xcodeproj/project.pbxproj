@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		184D661D1DB4F2B2008976A1 /* Violations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 184D661C1DB4F2B2008976A1 /* Violations.swift */; };
+		184D661F1DB4F349008976A1 /* ViolationsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 184D661E1DB4F349008976A1 /* ViolationsTableViewController.swift */; };
 		1EE6D1321DB2D7B0006EBDBF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EE6D1311DB2D7B0006EBDBF /* AppDelegate.swift */; };
 		1EE6D1341DB2D7B0006EBDBF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EE6D1331DB2D7B0006EBDBF /* ViewController.swift */; };
 		1EE6D1371DB2D7B0006EBDBF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1EE6D1351DB2D7B0006EBDBF /* Main.storyboard */; };
@@ -16,6 +18,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		184D661C1DB4F2B2008976A1 /* Violations.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Violations.swift; sourceTree = "<group>"; };
+		184D661E1DB4F349008976A1 /* ViolationsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViolationsTableViewController.swift; sourceTree = "<group>"; };
 		1EE6D12E1DB2D7B0006EBDBF /* AC3.2-Violations.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "AC3.2-Violations.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1EE6D1311DB2D7B0006EBDBF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1EE6D1331DB2D7B0006EBDBF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -40,6 +44,7 @@
 		1EE6D1251DB2D7B0006EBDBF = {
 			isa = PBXGroup;
 			children = (
+				184D661C1DB4F2B2008976A1 /* Violations.swift */,
 				1EE6D1301DB2D7B0006EBDBF /* AC3.2-Violations */,
 				1EE6D1431DB2D7C4006EBDBF /* violations.json */,
 				1EE6D12F1DB2D7B0006EBDBF /* Products */,
@@ -59,6 +64,7 @@
 			children = (
 				1EE6D1311DB2D7B0006EBDBF /* AppDelegate.swift */,
 				1EE6D1331DB2D7B0006EBDBF /* ViewController.swift */,
+				184D661E1DB4F349008976A1 /* ViolationsTableViewController.swift */,
 				1EE6D1351DB2D7B0006EBDBF /* Main.storyboard */,
 				1EE6D1381DB2D7B0006EBDBF /* Assets.xcassets */,
 				1EE6D13A1DB2D7B0006EBDBF /* LaunchScreen.storyboard */,
@@ -141,7 +147,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				1EE6D1341DB2D7B0006EBDBF /* ViewController.swift in Sources */,
+				184D661F1DB4F349008976A1 /* ViolationsTableViewController.swift in Sources */,
 				1EE6D1321DB2D7B0006EBDBF /* AppDelegate.swift in Sources */,
+				184D661D1DB4F2B2008976A1 /* Violations.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -303,6 +311,7 @@
 				1EE6D1421DB2D7B0006EBDBF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
